@@ -93,7 +93,6 @@ int main(int argc, char *argv[]) {
 			for(int i=0; i< NTHREADS; i++){
 				pthread_cond_signal(&confO);
 			}
-			// pthread_cond_broadcast(&confO);
 
 
 	/* Wait for all threads to complete then print global sum */
